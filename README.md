@@ -1,10 +1,10 @@
-# 📷 OCR Text Extractor PWA for iphone
+# OCR Text Extractor PWA for iphone
 
 A Progressive Web App (PWA) that lets you **take a photo or upload an image** from your library, extract text with OCR, clean and format it, and translate it between **English, Swedish, and Estonian** — all right from your browser or iPhone home screen.
 
 ---
 
-## 🚀 Features
+## Features
 
 ✅ **Take Photo or Upload Image**  
 – Separate buttons for camera and photo library.  
@@ -52,7 +52,7 @@ ocr-text-extractor/
 └── README.md
 
 
-🌐 Running Locally
+Running Locally
 
 You can run it directly by opening index.html,
 but for full PWA support (service worker), use a local web server:
@@ -61,16 +61,31 @@ Option 1 — Python
 python3 -m http.server 8000
 
 Then open:
-👉 http://localhost:8000
+http://localhost:8000
 Option 2 — VS Code Live Server Extension
 
 Just click “Go Live” in VS Code.
-📱 Adding to Home Screen
-
-
-
-
+Adding to Home Screen
 
 Visit your app URL in Safari on iPhone.
 Tap Share → Add to Home Screen.
 Launch it from your home screen — now it behaves like a native app.
+
+Dependencies
+
+Tesseract.js v5
+MyMemory Translation API
+
+Roadmap
+Add auto language detection before OCR
+Add multi-page OCR batch mode
+Add dark mode toggle
+Add export to PDF
+
+Author
+Lukas Benneberg
+GitHub: @benneberg
+
+
+License
+This project is licensed under the MIT License
